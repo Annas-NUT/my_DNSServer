@@ -1,29 +1,154 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>หน้าเว็บ</title>
-        <style>
-            /* CSS เพื่อกำหนดรูปพื้นหลัง */
-            body {
-            background: url('kmitl.png') no-repeat center center fixed;
-            /* เปลี่ยนชื่อไฟล์รูปภาพตามต้องการ */
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>บัตรนักศึกษา</title>
+    <style>
+       .Word1{
+        margin:-20px 0 0 0px ;
+    }
+        .Word2{
+        margin-top: -25px;
+        }
+        .Word3{
+        margin: -25px 0 0  0;
+        }
+        .Line{
+            margin: -15px 0 0 0;
+        }
+        .Word4{
+         margin:-20px 0 0 0;
+        }
+        .Word5{
+            margin-bottom: -60px;
+        margin-left: 280px;
+        color: rgb(242, 245, 249);
+        }
+        body{
+            display: grid;
+            place-items:center;
             background-size: cover;
-            /* กำหนดให้ภาพขนาดเต็มหน้าจอ */
-            color: rgb(19, 19, 19);
-            /* กำหนดสีข้อความ */
-            text-align: center;
-            /* จัดข้อความให้อยู่ตรงกลาง */
-            padding: 50px;
-            /* เพิ่มพื้นที่เสริมข้างต้นและข้างล่างของหน้าจอ */
-            }
-        </style>
-    </head>
-    <body>
-        <!-- ข้อความ -->
-        <div>
-            <h1>64011010 ANNAS CHEKO</h1>
+            background-image:url("https://la.kmitl.ac.th/sites/liberalarts/files/styles/webp/public/2023-09/BG%20Zoom-01_0.png.webp?itok=ohiCdAtd");
+        }
+        .Student-card{
+        
+            background-color:white;
+            margin: 100px 0 0 0;
+			width: 420px;
+			height: 600px;
+			box-shadow: 0 5px 20px black;
+            border-bottom: 60px solid#e65100;
+			border-radius: 1.2rem;
+            display: grid;
+            place-items: center;
+        }
+        .blankPlat{
+            margin-top: -5px;
+            height: 200px ;
+            background-color: #e65100;
+            width: 100%;
+            border-top-right-radius: 1.2rem ;
+            border-top-left-radius: 1.2rem;
+        }
+        .content1{
+            display: grid;
+            grid-template-columns: 50% 50%;
+            width: 100%;
+            place-items: center;
+            margin-top: -200px;
+        }
+        .content2{
+            display: grid;
+            width: 100%;
+        }
+        .isas{
+            width: 100%;
+            padding-left: 20px;
+            text-align: left;
+        }
+        .name{
+            margin-top: -30px;
+            margin-left: -18px;
+        }
+        .Picture1{
+        }
+        .Picture2{
+        margin-top: 15px;
+        }
+        .Word6{
+            margin-top: -25px;
+            color: rgb(242, 245, 249);
+        }
+        .Word7{
+            color: rgb(242, 245, 249);
+        }
+        .Picture3{
+       
+        }
+        .Word8{
+            margin-top: -20px;
+            color: rgb(0, 0, 0);
+        }
+        /* CSS เพื่อกำหนดรูปพื้นหลัง */
+    </style>
+</head>
+<body>
+    <div class="Student-card">
+        <div class="blankPlat">
+            
         </div>
-    </body>
+        <div class="content1">
+            <div class="Picture1">
+            <img src="img/me.jpg" width="150px" height="170px">
+        </div>
+        <div class="Picture2">
+            <img src="img/kmitl1.png" width="110px" height="110px">
+            <div class="Word6">
+                <h1>KMITL</h1>
+                <div class="name">
+                    พระจอมเกล้าลาดกระบัง
+                </div>
+            </div>
+        </div>
+        </div>
+
+        <div>
+            
+        </div>
+        <div class="isas">
+            <div class="Word1">
+                <p><h4>Undergradute<br>
+                Student ID :</h4></p>
+            </div>
+            <div class="Word2">
+                <p><h1>64011010 <br>
+                อัณนัซ เจะโก๊ะ <br></h1></p>
+            </div>
+            <div class="Word3">
+                <p><h3>ANNAS CHEKO <br>
+                Blood group : A</h3></p>
+            </div>
+            <div class="Line">
+                <hr width="140px">
+            </div>
+            <div class="Word4">
+                <p><h4>School of Engineering <br>
+                Issue :10/01/2022 Expire :31/07/2025</h4></p>
+            </div>
+        </div>
+        <div class="Word8">
+            <p><h4>............................... <br>
+            President (Acting)</h4></p>
+        </div>
+        <div class="Picture3">
+            <img src="img/thesim.jpg" width="60px" height="70px">
+        </div>
+        <div class="content2">
+            <div class="Word5">
+            <font size="7">VISA</font>
+            </div>
+        </div>
+    </div>
+</body>
 </html>
